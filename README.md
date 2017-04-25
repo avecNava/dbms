@@ -1,3 +1,5 @@
+Please open in RAW mode for proper formatting
+
 -- +-------------------+
 -- | Tables |
 -- +-------------------+
