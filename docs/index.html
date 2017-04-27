@@ -1,260 +1,85 @@
-<font face="Courier New" size="2">
-<font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;Tables_in_mca2016&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;company&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;employee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;manages&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;works&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;works;</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;Field&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Null&nbsp;|&nbsp;Key&nbsp;|&nbsp;Default&nbsp;|&nbsp;Extra&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;employee_name&nbsp;|&nbsp;varchar(20)&nbsp;&nbsp;|&nbsp;NO&nbsp;&nbsp;&nbsp;|&nbsp;PRI&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;company_name&nbsp;&nbsp;|&nbsp;varchar(20)&nbsp;&nbsp;|&nbsp;NO&nbsp;&nbsp;&nbsp;|&nbsp;PRI&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;salary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;double(10,2)&nbsp;|&nbsp;YES&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;company;</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;Field&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Null&nbsp;|&nbsp;Key&nbsp;|&nbsp;Default&nbsp;|&nbsp;Extra&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;company_name&nbsp;|&nbsp;varchar(20)&nbsp;|&nbsp;NO&nbsp;&nbsp;&nbsp;|&nbsp;PRI&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;city&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;varchar(30)&nbsp;|&nbsp;NO&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;employee;</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;Field&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Null&nbsp;|&nbsp;Key&nbsp;|&nbsp;Default&nbsp;|&nbsp;Extra&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;employee_name&nbsp;|&nbsp;varchar(20)&nbsp;|&nbsp;NO&nbsp;&nbsp;&nbsp;|&nbsp;PRI&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;street&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;varchar(20)&nbsp;|&nbsp;NO&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;city&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;varchar(20)&nbsp;|&nbsp;NO&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;manages;</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;Field&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Null&nbsp;|&nbsp;Key&nbsp;|&nbsp;Default&nbsp;|&nbsp;Extra&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;employee_name&nbsp;|&nbsp;varchar(20)&nbsp;|&nbsp;NO&nbsp;&nbsp;&nbsp;|&nbsp;PRI&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;manager_name&nbsp;&nbsp;|&nbsp;varchar(20)&nbsp;|&nbsp;NO&nbsp;&nbsp;&nbsp;|&nbsp;PRI&nbsp;|&nbsp;NULL&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;SELECT&nbsp;*&nbsp;FROM&nbsp;WORKS;</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;employee_name&nbsp;|&nbsp;company_name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;salary&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;MADHAV&nbsp;BHAI&nbsp;&nbsp;&nbsp;|&nbsp;KANTIPUR&nbsp;CITY&nbsp;COLLEGE&nbsp;|&nbsp;15000.00&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;NAVA&nbsp;BOGATEE&nbsp;&nbsp;|&nbsp;Agile&nbsp;IT&nbsp;Solutions&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;25000.50&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;NAVA&nbsp;BOGATEE&nbsp;&nbsp;|&nbsp;KANTIPUR&nbsp;CITY&nbsp;COLLEGE&nbsp;|&nbsp;25000.50&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;SUJAN&nbsp;DEVKOTA&nbsp;|&nbsp;Agile&nbsp;IT&nbsp;Solutions&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;5000.00&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;SUJAN&nbsp;DEVKOTA&nbsp;|&nbsp;KANTIPUR&nbsp;CITY&nbsp;COLLEGE&nbsp;|&nbsp;18000.25&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;SELECT&nbsp;*&nbsp;FROM&nbsp;COMPANY;</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;company_name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;city&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;ACME&nbsp;ENGG&nbsp;COLLEGE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Swayambhu&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;AGILE&nbsp;IT&nbsp;Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Lalitpur&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;KANTIPUR&nbsp;CITY&nbsp;COLLEGE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Kathmandu&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;KHWOPA&nbsp;ENGINEERING&nbsp;COLLEGE&nbsp;|&nbsp;Bhaktapur&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;SELECT&nbsp;*&nbsp;FROM&nbsp;EMPLOYEE;</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;employee_name&nbsp;|&nbsp;street&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;city&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;MADHAV&nbsp;BHAI&nbsp;&nbsp;&nbsp;|&nbsp;Putalisadak&nbsp;3&nbsp;|&nbsp;Kathmandu&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;NAVA&nbsp;BOGATEE&nbsp;&nbsp;|&nbsp;Thasikhel&nbsp;12&nbsp;&nbsp;|&nbsp;Lalitpur&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;SUJAN&nbsp;DEVKOTA&nbsp;|&nbsp;Banasthali&nbsp;11&nbsp;|&nbsp;Kathmandu&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;SELECT&nbsp;*&nbsp;FROM&nbsp;MANAGES;</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;employee_name&nbsp;|&nbsp;manager_name&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;MADHAV&nbsp;BHAI&nbsp;&nbsp;&nbsp;|&nbsp;NAVA&nbsp;BOGATEE&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;SUJAN&nbsp;DEVKOTA&nbsp;|&nbsp;MADHAV&nbsp;BHAI&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;SUJAN&nbsp;DEVKOTA&nbsp;|&nbsp;NAVA&nbsp;BOGATEE&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;&nbsp;&nbsp;employee&nbsp;(employee_name,&nbsp;street,&nbsp;city)</i></font>
-<br/><font color = "blue">CREATE</font>&nbsp;<font color = "blue">TABLE</font>&nbsp;<font color = "maroon">employee</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">employee_name</font>&nbsp;<font color = "black"><i>VARCHAR</i></font><font color = "maroon">(</font><font color = "black">30</font><font color = "maroon">)</font>&nbsp;<font color = "blue">NOT</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">street</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "black"><i>VARCHAR</i></font><font color = "maroon">(</font><font color = "black">30</font><font color = "maroon">)</font>&nbsp;<font color = "blue">NOT</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">city</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "black"><i>VARCHAR</i></font><font color = "maroon">(</font><font color = "black">30</font><font color = "maroon">)</font>&nbsp;<font color = "blue">NOT</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">CONSTRAINT</font>&nbsp;<font color = "maroon">pk_employee_name</font>&nbsp;<font color = "blue">PRIMARY</font>&nbsp;<font color = "blue">KEY</font>&nbsp;<font color = "maroon">(</font><font color = "maroon">employee_name</font><font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font><font color = "silver">;</font><font color = "blue">INSERT</font>&nbsp;<font color = "blue">INTO</font>&nbsp;<font color = "maroon">employee</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">employee_name</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">street</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">city</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">VALUES</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'NAVA&nbsp;BOGATEE'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Thasikhel&nbsp;12'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Lalitpur'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'SUJAN&nbsp;DEVKOTA'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Banasthali&nbsp;11'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Kathmandu'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'MADHAV&nbsp;BHAI'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Putalisadak&nbsp;3'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Kathmandu'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font><font color = "silver">;</font>
-<br/>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;&nbsp;&nbsp;company&nbsp;(company_name,&nbsp;city)</i></font><font color = "blue">CREATE</font>&nbsp;<font color = "blue">TABLE</font>&nbsp;<font color = "maroon">company</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">company_name</font>&nbsp;<font color = "black"><i>VARCHAR</i></font><font color = "maroon">(</font><font color = "black">30</font><font color = "maroon">)</font>&nbsp;<font color = "blue">NOT</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">city</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "black"><i>VARCHAR</i></font><font color = "maroon">(</font><font color = "black">30</font><font color = "maroon">)</font>&nbsp;<font color = "blue">NOT</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">CONSTRAINT</font>&nbsp;<font color = "maroon">pk_company_name</font>&nbsp;<font color = "blue">PRIMARY</font>&nbsp;<font color = "blue">KEY</font>&nbsp;<font color = "maroon">(</font><font color = "maroon">company_name</font><font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font><font color = "silver">;</font>
-<br/>
-<br/><font color = "green"><i>&#45;&#45;ALTER&nbsp;TABLE&nbsp;company&nbsp;CHANGE&nbsp;company_name&nbsp;company_name&nbsp;VARCHAR(20);</i></font><font color = "blue">INSERT</font>&nbsp;<font color = "blue">INTO</font>&nbsp;<font color = "maroon">company</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">company_name</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">city</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">VALUES</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'AGILE&nbsp;IT&nbsp;SOLUTIONS'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Lalitpur'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'KANTIPUR&nbsp;CITY&nbsp;COLLEGE'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Kathmandu'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'ACME&nbsp;ENGINEERING&nbsp;COLLEGE'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Swayambhu'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'KHWOPA&nbsp;ENGINEERING&nbsp;COLLEGE'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'Bhaktapur'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font><font color = "silver">;</font>
-<br/>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;&nbsp;works&nbsp;(employee_name,&nbsp;company_name,&nbsp;salary)</i></font><font color = "blue">CREATE</font>&nbsp;<font color = "blue">TABLE</font>&nbsp;<font color = "maroon">works</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">employee_name</font>&nbsp;<font color = "black"><i>VARCHAR</i></font><font color = "maroon">(</font><font color = "black">30</font><font color = "maroon">)</font>&nbsp;<font color = "blue">NOT</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">company_name</font>&nbsp;&nbsp;<font color = "black"><i>VARCHAR</i></font><font color = "maroon">(</font><font color = "black">30</font><font color = "maroon">)</font>&nbsp;<font color = "blue">NOT</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">salary</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "black"><i>NUMERIC</i></font><font color = "maroon">(</font><font color = "black">12</font><font color = "silver">,</font><font color = "black">2</font><font color = "maroon">)</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">CONSTRAINT</font>&nbsp;<font color = "maroon">pk_emp_company</font>&nbsp;<font color = "blue">PRIMARY</font>&nbsp;<font color = "blue">KEY</font><font color = "maroon">(</font><font color = "maroon">employee_name</font><font color = "silver">,</font>&nbsp;<font color = "maroon">company_name</font><font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font><font color = "silver">;</font>
-<br/>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;&nbsp;add&nbsp;foreign&nbsp;key&nbsp;by&nbsp;ALTER&nbsp;STATEMENT</i></font><font color = "blue">ALTER</font>&nbsp;<font color = "blue">TABLE</font>&nbsp;<font color = "maroon">works</font>&nbsp;<font color = "blue">ADD</font>&nbsp;<font color = "blue">CONSTRAINT</font>&nbsp;<font color = "maroon">fk_works_company</font>&nbsp;<font color = "blue">FOREIGN</font>&nbsp;<font color = "blue">KEY</font>&nbsp;<font color = "maroon">(</font><font color = "maroon">company_name</font><font color = "maroon">)</font>&nbsp;<font color = "blue">REFERENCES</font>&nbsp;<font color = "maroon">company</font>&nbsp;<font color = "maroon">(</font><font color = "maroon">company_name</font><font color = "maroon">)</font><font color = "silver">;</font><font color = "blue">ALTER</font>&nbsp;<font color = "blue">TABLE</font>&nbsp;<font color = "maroon">works</font>&nbsp;<font color = "blue">ADD</font>&nbsp;<font color = "blue">CONSTRAINT</font>&nbsp;<font color = "maroon">fk_works_employee</font>&nbsp;<font color = "blue">FOREIGN</font>&nbsp;<font color = "blue">KEY</font><font color = "maroon">(</font><font color = "maroon">employee_name</font><font color = "maroon">)</font>&nbsp;<font color = "blue">REFERENCES</font>&nbsp;<font color = "maroon">employee</font><font color = "maroon">(</font><font color = "maroon">employee_name</font><font color = "maroon">)</font><font color = "silver">;</font>
-<br/>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;ALTER&nbsp;TABLE&nbsp;works&nbsp;DROP&nbsp;FOREIGN&nbsp;KEY&nbsp;FK_works_company;</i></font><font color = "blue">INSERT</font>&nbsp;<font color = "blue">INTO</font>&nbsp;<font color = "maroon">works</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">employee_name</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">company_name</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">salary</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">VALUES</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'NAVA&nbsp;BOGATEE'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'KANTIPUR&nbsp;CITY&nbsp;COLLEGE'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "black">25000.50</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'MADHAV&nbsp;BHAI'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'KANTIPUR&nbsp;CITY&nbsp;COLLEGE'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "black">15000.00</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'SUJAN&nbsp;DEVKOTA'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'KANTIPUR&nbsp;CITY&nbsp;COLLEGE'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "black">18000.25</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'NAVA&nbsp;BOGATEE'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'AGILE&nbsp;IT&nbsp;SOLUTIONS'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "black">25000.50</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'SUJAN&nbsp;DEVKOTA'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'AGILE&nbsp;IT&nbsp;SOLUTIONS'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "black">5000.00</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font><font color = "silver">;</font>
-<br/>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;&nbsp;&nbsp;manages&nbsp;(employee_name,&nbsp;manager_name)</i></font><font color = "blue">CREATE</font>&nbsp;<font color = "blue">TABLE</font>&nbsp;<font color = "maroon">manages</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">employee_name</font>&nbsp;<font color = "black"><i>VARCHAR</i></font><font color = "maroon">(</font><font color = "black">30</font><font color = "maroon">)</font>&nbsp;<font color = "blue">NOT</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">manager_name</font>&nbsp;&nbsp;<font color = "black"><i>VARCHAR</i></font><font color = "maroon">(</font><font color = "black">30</font><font color = "maroon">)</font>&nbsp;<font color = "blue">NOT</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">CONSTRAINT</font>&nbsp;<font color = "maroon">pk_employee_manager</font>&nbsp;<font color = "blue">PRIMARY</font>&nbsp;<font color = "blue">KEY</font><font color = "maroon">(</font><font color = "maroon">employee_name</font><font color = "silver">,</font><font color = "maroon">manager_name</font><font color = "maroon">)</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">FOREIGN</font>&nbsp;<font color = "blue">KEY</font>&nbsp;<font color = "maroon">(</font><font color = "maroon">employee_name</font><font color = "maroon">)</font>&nbsp;<font color = "blue">REFERENCES</font>&nbsp;<font color = "maroon">employee</font><font color = "maroon">(</font><font color = "maroon">employee_name</font><font color = "maroon">)</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">FOREIGN</font>&nbsp;<font color = "blue">KEY</font>&nbsp;<font color = "maroon">(</font><font color = "maroon">manager_name</font><font color = "maroon">)</font>&nbsp;<font color = "blue">REFERENCES</font>&nbsp;<font color = "maroon">employee</font><font color = "maroon">(</font><font color = "maroon">employee_name</font><font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font><font color = "silver">;</font><font color = "blue">INSERT</font>&nbsp;<font color = "blue">INTO</font>&nbsp;<font color = "maroon">manages</font>&nbsp;<font color = "blue">VALUES</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'MADHAV&nbsp;BHAI'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'NAVA&nbsp;BOGATEE'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'SUJAN&nbsp;DEVKOTA'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'NAVA&nbsp;BOGATEE'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'SUJAN&nbsp;DEVKOTA'</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red">'MADHAV&nbsp;BHAI'</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">)</font><font color = "silver">;</font>
-<br/>
-<br/><font color = "green"><i>&#45;&#45;employee&nbsp;and&nbsp;company&nbsp;they&nbsp;work&nbsp;should&nbsp;belong&nbsp;to&nbsp;the&nbsp;same&nbsp;city</i></font>
-<br/><font color = "green"><i>&#45;&#45;list&nbsp;out&nbsp;all&nbsp;users&nbsp;and&nbsp;where&nbsp;they&nbsp;work&nbsp;at&nbsp;the&nbsp;moment</i></font><font color = "blue">SELECT</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">e</font><font color = "silver">.</font><font color = "maroon">employee_name</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">e</font><font color = "silver">.</font><font color = "maroon">city</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">c</font><font color = "silver">.</font><font color = "maroon">company_name</font><font color = "silver">,</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">c</font><font color = "silver">.</font><font color = "maroon">city</font>
-<br/><font color = "blue">FROM</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">employee</font>&nbsp;<font color = "maroon">e</font>
-<br/><font color = "blue">INNER</font>&nbsp;<font color = "blue">JOIN</font>&nbsp;<font color = "maroon">works</font>&nbsp;<font color = "maroon">w</font>
-<br/><font color = "blue">ON</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">e</font><font color = "silver">.</font><font color = "maroon">employee_name</font><font color = "silver">=</font><font color = "maroon">w</font><font color = "silver">.</font><font color = "maroon">employee_name</font>
-<br/><font color = "blue">INNER</font>&nbsp;<font color = "blue">JOIN</font>&nbsp;<font color = "maroon">company</font>&nbsp;<font color = "maroon">c</font>
-<br/><font color = "blue">ON</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">w</font><font color = "silver">.</font><font color = "maroon">company_name</font>&nbsp;<font color = "silver">=</font>&nbsp;<font color = "maroon">c</font><font color = "silver">.</font><font color = "maroon">company_name</font>
-<br/><font color = "blue">ORDER</font>&nbsp;<font color = "blue">BY</font>&nbsp;&nbsp;&nbsp;<font color = "maroon">e</font><font color = "silver">.</font><font color = "maroon">employee_name</font>&nbsp;<font color = "blue">ASC</font><font color = "silver">;</font>
-<br/>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;employee_name&nbsp;|&nbsp;city&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;company_name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;city&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;MADHAV&nbsp;BHAI&nbsp;&nbsp;&nbsp;|&nbsp;Kathmandu&nbsp;|&nbsp;KANTIPUR&nbsp;CITY&nbsp;COLLEGE&nbsp;|&nbsp;Kathmandu&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;NAVA&nbsp;BOGATEE&nbsp;&nbsp;|&nbsp;Lalitpur&nbsp;&nbsp;|&nbsp;AGILE&nbsp;IT&nbsp;Solutions&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Lalitpur&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;NAVA&nbsp;BOGATEE&nbsp;&nbsp;|&nbsp;Lalitpur&nbsp;&nbsp;|&nbsp;KANTIPUR&nbsp;CITY&nbsp;COLLEGE&nbsp;|&nbsp;Kathmandu&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;SUJAN&nbsp;DEVKOTA&nbsp;|&nbsp;Kathmandu&nbsp;|&nbsp;AGILE&nbsp;IT&nbsp;Solutions&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Lalitpur&nbsp;&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;|&nbsp;SUJAN&nbsp;DEVKOTA&nbsp;|&nbsp;Kathmandu&nbsp;|&nbsp;KANTIPUR&nbsp;CITY&nbsp;COLLEGE&nbsp;|&nbsp;Kathmandu&nbsp;|</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-+</i></font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;trigger&nbsp;to&nbsp;check&nbsp;if&nbsp;employees&nbsp;and&nbsp;company&nbsp;are&nbsp;from&nbsp;same&nbsp;city</i></font><font color = "blue">CREATE</font>&nbsp;<font color = "blue">TRIGGER</font>&nbsp;<font color = "maroon">trigger_emp_company_from_same_city</font>&nbsp;<font color = "maroon">before</font>
-<br/><font color = "blue">INSERT</font>
-<br/><font color = "blue">OR</font>
-<br/><font color = "blue">UPDATE</font>
-<br/><font color = "blue">ON</font>&nbsp;<font color = "blue">PUBLIC</font><font color = "silver">.</font><font color = "maroon">works</font>&nbsp;<font color = "blue">FOR</font>&nbsp;<font color = "maroon">each</font>&nbsp;<font color = "maroon">row</font>
-<br/><font color = "blue">EXECUTE</font>&nbsp;<font color = "blue">PROCEDURE</font>
-<br/>&nbsp;&nbsp;<font color = "blue">PUBLIC</font><font color = "silver">.</font><font color = "maroon">fn_emp_company_from_same_city</font><font color = "maroon">(</font><font color = "maroon">)</font><font color = "silver">;</font>
-<br/><font color = "green"><i>&#45;&#45;&nbsp;trgger&nbsp;function</i></font>
-<br/><font color = "maroon">create</font>
-<br/><font color = "blue">OR</font>
-<br/><font color = "maroon">replace</font>&nbsp;<font color = "blue">FUNCTION</font>&nbsp;<font color = "blue">PUBLIC</font><font color = "silver">.</font><font color = "maroon">fn_emp_company_from_same_city</font><font color = "maroon">(</font><font color = "maroon">)</font>
-<br/><font color = "maroon">returns</font>&nbsp;<font color = "blue">TRIGGER</font>&nbsp;<font color = "blue">AS</font>&nbsp;<font color = "silver">$$</font>
-<br/><font color = "blue">BEGIN</font>
-<br/>&nbsp;&nbsp;<font color = "blue">IF</font>&nbsp;<font color = "blue">EXISTS</font>
-<br/>&nbsp;&nbsp;<font color = "maroon">(</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">SELECT</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">FROM</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">employee</font>&nbsp;<font color = "maroon">e</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">INNER</font>&nbsp;<font color = "blue">JOIN</font>&nbsp;<font color = "maroon">company</font>&nbsp;<font color = "maroon">c</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">ON</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">c</font><font color = "silver">.</font><font color = "maroon">city</font><font color = "silver">=</font><font color = "maroon">e</font><font color = "silver">.</font><font color = "maroon">city</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">WHERE</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">e</font><font color = "silver">.</font><font color = "maroon">employee_name</font><font color = "silver">=</font><font color = "maroon">new</font><font color = "silver">.</font><font color = "maroon">employee_name</font>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "blue">AND</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "maroon">c</font><font color = "silver">.</font><font color = "maroon">company_name</font><font color = "silver">=</font><font color = "maroon">new</font><font color = "silver">.</font><font color = "maroon">company_name</font>&nbsp;<font color = "maroon">)</font>&nbsp;<font color = "blue">THEN</font>
-<br/>&nbsp;&nbsp;<font color = "maroon">raise</font>&nbsp;<font color = "maroon">notice</font>&nbsp;<font color = "red">'**&nbsp;Employee:&nbsp;%&nbsp;and&nbsp;Company&nbsp;:&nbsp;%&nbsp;are&nbsp;from&nbsp;same&nbsp;city.'</font><font color = "silver">,</font>&nbsp;<font color = "maroon">new</font><font color = "silver">.</font><font color = "maroon">employee_name</font><font color = "silver">,</font>&nbsp;<font color = "maroon">new</font><font color = "silver">.</font><font color = "maroon">company_name</font><font color = "silver">;</font>
-<br/>&nbsp;&nbsp;<font color = "maroon">return</font>&nbsp;<font color = "maroon">new</font><font color = "silver">;</font>
-<br/>&nbsp;&nbsp;<font color = "maroon">else</font>&nbsp;<font color = "maroon">raise</font>&nbsp;<font color = "maroon">notice</font>&nbsp;<font color = "red">'**&nbsp;Employee:&nbsp;%&nbsp;and&nbsp;Company&nbsp;:&nbsp;%&nbsp;are&nbsp;from&nbsp;different&nbsp;city.'</font><font color = "silver">,</font>&nbsp;<font color = "maroon">new</font><font color = "silver">.</font><font color = "maroon">employee_name</font><font color = "silver">,</font>&nbsp;<font color = "maroon">new</font><font color = "silver">.</font><font color = "maroon">company_name</font><font color = "silver">;</font>
-<br/><font color = "maroon">end</font>
-<br/><font color = "blue">IF</font><font color = "silver">;</font>
-<br/><font color = "maroon">return</font>&nbsp;<font color = "blue">NULL</font><font color = "silver">;</font>
-<br/><font color = "maroon">end</font><font color = "silver">;</font>
-<br/><font color = "silver">$$</font>&nbsp;<font color = "maroon">language</font>&nbsp;<font color = "red">'plpgsql'</font><font color = "silver">;</font>
-</font>
+<!doctype html>
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Nava Bogatee Github pages</title>
+        <meta name="description" content="Personal github pages for Nava Bogatee">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+        span.emo {
+        font-size: xx-large;
+        }
+        </style>
+    </head>
+    <body>
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">@avecNava</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Assignments</a></li>
+                        <!-- <li><a href="#">Web</a></li> -->
+                        <li><a href="#">About me</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article>
+                    <header>
+                        <h1>Hello</h1>
+                        <p>Welcome to my github page. This page will contain documents and assignments of the <strong>Masters in computer applications</strong> program of the Purbanchal University.</p>
+                    </header>
+                    <section>
+                        <h2>Subjects</h2>
+                        <p>
+                            The program contains 5 subjects in the first semester.
+                            <ol>
+                                <li>Advanced database</li>
+                                <li>Web technology</li>
+                                <li>Organizational behaviour and Human resource management(OBHRM)</li>
+                                <li>Discrete mathematics</li>
+                                <li>Operating system</li>
+                            </ol>
+                        </p>
+                    </section>
+                    <section>                        
+                        <p>I will try to enlist the assignments, answers, relevant documents and guides and resources related to the above subjects as far as possible.</p>
+                    </section>
+                    <footer>
+                        <h3>About</h3>
+                        <p>I am Nava. Currently learining the masters program at <a target="_blank" href="kcc.edu.np">Kantipur city college</a> at putalisada.</p>
+                    </footer>
+                </article>
+
+                <aside>
+                    <h3>Hello world</h3>
+                    <p></p>
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3><span class="emo">&#9786;</span> Nava Bogatee  2017</h3>
+            </footer>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
